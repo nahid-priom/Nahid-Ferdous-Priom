@@ -193,25 +193,25 @@ const projects = [
     source_code_link: "https://github.com/nahid-priom/Social_media_frontend",
   },
   {
-    name: "Job IT",
+    name: "Pathok Point",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Crafted a WordPress e-commerce site, seamlessly integrating BKash and Nagad payment gateways. Empowering smooth transactions and providing a user-friendly experience for online shoppers.",
     tags: [
       {
-        name: "react",
+        name: "WordPress",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Woocommerce",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Elementor",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://pathokpoint.com/",
   },
   {
     name: "Trip Guide",
