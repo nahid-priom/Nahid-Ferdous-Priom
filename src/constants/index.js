@@ -225,7 +225,7 @@ const projects = [
   {
     name: "University Website",
     description:
-      "University website leveraging Html & CSS, delivering a user-friendly experience. Explore academic programs, campus life, and resources. Dynamic, informative, and engaging, fostering an interactive connection between students and the institution.",
+      "University website leveraging Html & CSS, delivering a user-friendly experience. Dynamic, informative, and engaging, fostering an interactive connection between students and the institution.",
     tags: [
       {
         name: "Html",
@@ -240,7 +240,7 @@ const projects = [
     source_code_link: "https://github.com/nahid-priom/Responsive-University-CUET--Website-Html-Css",
   },
   {
-    name: "Grocery Sjop",
+    name: "Grocery Shop",
     description:
       "Revolutionizing grocery shopping with a React-powered website. Explore a vast range of products, seamless navigation, and convenient online ordering for a modern and efficient shopping experience.",
     tags: [
