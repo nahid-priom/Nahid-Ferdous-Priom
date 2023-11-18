@@ -15,10 +15,8 @@ import {
   git,
   figma,
   docker,
-  meta,
   pathok,
   lskit,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -214,25 +212,21 @@ const projects = [
     source_code_link: "https://pathokpoint.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Aliba International",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Designed a dynamic website for international trade, facilitating seamless import and export operations. Enhanced user experience with intuitive navigation and comprehensive information for global business endeavors.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "TailwindCSS",
         color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ls-kit/alnext2",
   },
 ];
 
