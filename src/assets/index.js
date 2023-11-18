@@ -29,6 +29,12 @@ import pathok from "./company/pathok.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import tour from "./tour.png";
+import grocery from "./grocery.png";
+import cuet from "./cuet.png";
+
+
+
 
 export {
   logo,
@@ -59,4 +65,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  tour,
+  grocery,
+  cuet,
 };

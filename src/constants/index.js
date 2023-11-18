@@ -21,6 +21,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  tour,
+  cuet,
+  grocery,
 } from "../assets";
 
 export const navLinks = [
@@ -141,32 +144,6 @@ const experiences = [
   
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
 
 const projects = [
   {
@@ -228,6 +205,57 @@ const projects = [
     image: tripguide,
     source_code_link: "https://github.com/ls-kit/alnext2",
   },
+  {
+    name: "Tour & Travels",
+    description:
+      "Dynamic tour and travel website powered by React, offering seamless navigation, vibrant visuals, and personalized itineraries, making every journey an unforgettable adventure. Explore the world effortlessly.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Chakra UI",
+        color: "green-text-gradient",
+      },
+    ],
+    image: tour,
+    source_code_link: "https://github.com/nahid-priom/Tour-Travels-ReactJs",
+  },
+  {
+    name: "University Website",
+    description:
+      "University website leveraging Html & CSS, delivering a user-friendly experience. Explore academic programs, campus life, and resources. Dynamic, informative, and engaging, fostering an interactive connection between students and the institution.",
+    tags: [
+      {
+        name: "Html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: cuet,
+    source_code_link: "https://github.com/nahid-priom/Responsive-University-CUET--Website-Html-Css",
+  },
+  {
+    name: "Grocery Sjop",
+    description:
+      "Revolutionizing grocery shopping with a React-powered website. Explore a vast range of products, seamless navigation, and convenient online ordering for a modern and efficient shopping experience.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: grocery,
+    source_code_link: "https://github.com/nahid-priom/Grocery-Shop",
+  },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
