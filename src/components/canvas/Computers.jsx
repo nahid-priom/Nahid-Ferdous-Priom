@@ -30,28 +30,28 @@ const Computers = ({ isMobile }) => {
 };
 
 const ComputersCanvas = () => {
-  const [isMobile, setIsMobile] = useState(true);
+  // const [isMobile, setIsMobile] = useState(true);
 
-  useEffect(() => {
-    // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia("(max-width: 1500px)");
+  // useEffect(() => {
+  //   // Add a listener for changes to the screen size
+  //   const mediaQuery = window.matchMedia("(max-width: 1500px)");
 
-    // Set the initial value of the `isMobile` state variable
-    setIsMobile(mediaQuery.matches);
+  //   // Set the initial value of the `isMobile` state variable
+  //   setIsMobile(mediaQuery.matches);
 
-    // Define a callback function to handle changes to the media query
-    const handleMediaQueryChange = (event) => {
-      setIsMobile(event.matches);
-    };
+  //   // Define a callback function to handle changes to the media query
+  //   const handleMediaQueryChange = (event) => {
+  //     setIsMobile(event.matches);
+  //   };
 
-    // Add the callback function as a listener for changes to the media query
-    mediaQuery.addEventListener("change", handleMediaQueryChange);
+  //   // Add the callback function as a listener for changes to the media query
+  //   mediaQuery.addEventListener("change", handleMediaQueryChange);
 
-    // Remove the listener when the component is unmounted
-    return () => {
-      mediaQuery.removeEventListener("change", handleMediaQueryChange);
-    };
-  }, []);
+  //   // Remove the listener when the component is unmounted
+  //   return () => {
+  //     mediaQuery.removeEventListener("change", handleMediaQueryChange);
+  //   };
+  // }, []);
 
   return (
     <Canvas
@@ -60,7 +60,7 @@ const ComputersCanvas = () => {
       dpr={[1, 2]}
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
-      className="hidden sm:block"
+      // className="hidden sm:block"
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
@@ -68,7 +68,7 @@ const ComputersCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-        <Computers isMobile={isMobile} />
+        <Computers />
       </Suspense>
 
       <Preload all />
